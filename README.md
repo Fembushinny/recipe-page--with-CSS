@@ -1,1 +1,1 @@
-This is a recipe page website built with html only.
+Styling added to the recipe page using CSS
