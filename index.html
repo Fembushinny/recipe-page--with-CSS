@@ -4,23 +4,25 @@
     <title>Boiled Yam and Egg Sauce Recipe</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <main>
-      <header>
+      <header class="">
         <h1>Boiled Yam and Egg Sauce</h1>
 
         <!-- <strong> is used to show important information -->
         <p>
           <strong>Key ingredients:</strong> Egg, tomatoes, peppers, and onions
         </p>
-
-        <img src="./food_image.jpeg" alt="Boiled Yam and Egg Sauce" />
       </header>
-
+      
+      <div>
+        <img src="./food_image.jpeg" alt="Boiled Yam and Egg Sauce" />
+      </div>
       <section>
-        <h2>Description</h2>
+        <!-- description-->
         <p>
           <!-- <em> is used for emphasis -->
           This is a <em>simple and delicious</em> recipe for boiled yam and egg
@@ -28,60 +30,62 @@
         </p>
       </section>
 
-      <section>
-        <h2>Ingredients</h2>
-        <ul>
-          <li>White yam: ½ to 1 medium tuber, peeled and sliced</li>
-          <li>Salt: 1 teaspoon (to taste)</li>
-          <li>2-3 medium tomatoes (chopped)</li>
-          <li>1 large onion (chopped)</li>
-          <li>1-2 scotch bonnet peppers (chopped)</li>
-          <li>
-            Seasoning: 1 bouillon cube, 1 tsp curry powder, 1 tsp thyme, and
-            salt to taste
-          </li>
-        </ul>
-      </section>
+      <div class="card">
+        <section class="ingredient">
+          <h2>Ingredients</h2>
+          <ul>
+            <li>White yam: ½ to 1 medium tuber, peeled and sliced</li>
+            <li>Salt: 1 teaspoon (to taste)</li>
+            <li>2-3 medium tomatoes (chopped)</li>
+            <li>1 large onion (chopped)</li>
+            <li>1-2 scotch bonnet peppers (chopped)</li>
+            <li>
+              Seasoning: 1 bouillon cube, 1 tsp curry powder, 1 tsp thyme, and
+              salt to taste
+            </li>
+          </ul>
+        </section>
 
-      <section>
-        <h2>Instructions</h2>
-        <ol>
-          <strong>Boil the Yam</strong>
-          <li>
-            Peel and slice the yam into 1-inch thick discs or rectangular
-            chunks.
-          </li>
-          <li>Rinse thoroughly in cold water until it runs clear.</li>
-          <li>
-            Place in a pot with enough water to cover the slices, add salt, and
-            boil for 15-20 minutes until fork-tender.
-          </li>
-          <li>Drain the water and set the yam aside.</li>
+        <section class="instruction">
+          <h2>Instructions</h2>
+          <ol>
+            <strong>Boil the Yam</strong>
+            <li>
+              Peel and slice the yam into 1-inch thick discs or rectangular
+              chunks.
+            </li>
+            <li>Rinse thoroughly in cold water until it runs clear.</li>
+            <li>
+              Place in a pot with enough water to cover the slices, add salt,
+              and boil for 15-20 minutes until fork-tender.
+            </li>
+            <li>Drain the water and set the yam aside.</li>
 
-          <strong>Make the Egg Sauce</strong>
-          <li>
-            Whisk the eggs in a bowl with a pinch of salt until well combined.
-          </li>
-          <li>
-            Heat oil in a frying pan over medium heat and sauté onions until
-            translucent (about 3 minutes).
-          </li>
-          <li>
-            Add the chopped tomatoes and peppers; fry for 5-10 minutes until the
-            water reduces and the oil begins to float on top.
-          </li>
-          <li>Stirr in the bouillon cube, curry, and thyme.</li>
+            <strong>Make the Egg Sauce</strong>
+            <li>
+              Whisk the eggs in a bowl with a pinch of salt until well combined.
+            </li>
+            <li>
+              Heat oil in a frying pan over medium heat and sauté onions until
+              translucent (about 3 minutes).
+            </li>
+            <li>
+              Add the chopped tomatoes and peppers; fry for 5-10 minutes until
+              the water reduces and the oil begins to float on top.
+            </li>
+            <li>Stirr in the bouillon cube, curry, and thyme.</li>
 
-          <li>
-            Pour in the whisked eggs. Let them sit for about a minute to set
-            before gently stirring to create soft, chunky curds. Serve the hot
-            egg sauce alongside or over the boiled yam.
-          </li>
-          <!-- <mark> highlights important phrase -->
-          Serve and
-          <mark>enjoy your meal!</mark>
-        </ol>
-      </section>
+            <li>
+              Pour in the whisked eggs. Let them sit for about a minute to set
+              before gently stirring to create soft, chunky curds. Serve the hot
+              egg sauce alongside or over the boiled yam.
+            </li>
+            <!-- <mark> highlights important phrase -->
+            Serve and
+            <mark>enjoy your meal!</mark>
+          </ol>
+        </section>
+      </div>
 
       <!-- Nutritional Facts section -->
       <section>
@@ -93,7 +97,7 @@
       </section>
 
       <!-- Tip  section  -->
-      <section>
+      <section class="tip">
         <h2>Variation Tip</h2>
         <p>
           For extra flavor, you can add diced bell peppers, garlic, ginger, or
@@ -103,8 +107,6 @@
       </section>
 
       <section>
-        <h2>Time</h2>
-
         <p><strong>Preparation Time:</strong> 10 minutes</p>
         <p><strong>Cooking Time:</strong> 60 minutes</p>
 
